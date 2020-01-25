@@ -1,9 +1,9 @@
 - name: Jonathan Schellack
   bio: |
-    Jonathan Schellack lives in Baton Rouge, Louisiana, USA. He is a principal and head of 
-    technology at Salus Facilities, where he leads development of emergency communication 
-    and digital facility management solutions as a service. Any views expressed on this 
-    site are his own.
+    Jonathan Schellack is a principal and head of technology at Salus Facilities, where he leads
+    development of emergency communication and digital facility management solutions as a service. 
+    He is also <a href="/consulting">available for consulting</a>.
+    Any views expressed on this site are his own.
   avatar: ./avatars/jonathan-schellack.jpg
   social:
     - url: https://twitter.com/schellack

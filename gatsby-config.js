@@ -5,7 +5,7 @@ module.exports = {
     siteUrl: `https://schellack.net`,
     description: `Jonathan Schellack's web site`,
     hero: {
-      heading: `Welcome. Feel free to grab a ☕ and stay for a while.`,
+      heading: `Welcome to Schellack.net<br/>Grab a ☕ & stay a while`,
       maxWidth: 652,
     },
     social: [
