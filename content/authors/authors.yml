@@ -1,24 +1,14 @@
-- name: Dennis Brotzky
+- name: Jonathan Schellack
   bio: |
-    Written by You. This is where your author bio lives. Share your work, your
-    joys and of course, your Twitter handle.
-  avatar: ./avatars/dennis-brotzky.jpg
+    Jonathan Schellack lives in Baton Rouge, Louisiana, USA. He is a principal and head of 
+    technology at Salus Facilities, where he leads development of emergency communication 
+    and digital facility management solutions as a service. Any views expressed on this 
+    site are his own.
+  avatar: ./avatars/jonathan-schellack.jpg
   social:
-    - url: https://unsplash.com
-    - url: https://stackoverflow.com
-    - url: https://github.com
-    - url: https://github.com
-    - url: https://github.com
+    - url: https://twitter.com/schellack
+    - url: https://github.com/schellack
+    - url: https://linkedin.com/in/schellack
+    - url: https://facebook.com/schellack
+    - url: https://stackoverflow.com/users/241754/schellack
   featured: true
-
-- name: Thiago Costa
-  bio: |
-    Written by You. This is where your author bio lives. Share your work, your
-    joys and of course, your Twitter handle.
-  avatar: ./avatars/thiago-costa.png
-  social:
-    - url: https://unsplash.com
-    - url: https://stackoverflow.com
-    - url: https://github.com
-    - url: https://github.com
-    - url: https://github.com

@@ -1,33 +1,29 @@
 module.exports = {
   siteMetadata: {
-    title: `Novela by Narative`,
-    name: `Narative`,
-    siteUrl: `https://novela.narative.co`,
-    description: `This is my description that will be used in the meta tags and important for search results`,
+    title: `Schellack.net`,
+    name: `Jonathan Schellack`,
+    siteUrl: `https://schellack.net`,
+    description: `Jonathan Schellack's web site`,
     hero: {
-      heading: `Welcome to Novela, the simplest way to start publishing with Gatsby.`,
+      heading: `Welcome. Feel free to grab a ☕ and stay for a while.`,
       maxWidth: 652,
     },
     social: [
       {
         name: `twitter`,
-        url: `https://twitter.com/narative`,
+        url: `https://twitter.com/schellack`,
       },
       {
         name: `github`,
-        url: `https://github.com/narative`,
+        url: `https://github.com/schellack`,
       },
       {
         name: `instagram`,
-        url: `https://instagram.com/narative.co`,
+        url: `https://instagram.com/schellack`,
       },
       {
         name: `linkedin`,
-        url: `https://www.linkedin.com/company/narative/`,
-      },
-      {
-        name: `dribbble`,
-        url: `https://dribbble.com/narativestudio`,
+        url: `https://www.linkedin.com/in/schellack/`,
       },
     ],
   },
@@ -48,8 +44,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Novela by Narative`,
-        short_name: `Novela`,
+        name: `Jonathan Schellack's Site`,
+        short_name: `Schellack.net`,
         start_url: `/`,
         background_color: `#fff`,
         theme_color: `#fff`,
