@@ -53,5 +53,17 @@ module.exports = {
         icon: `src/assets/favicon.png`,
       },
     },
+    {
+      resolve: `gatsby-plugin-prefetch-google-fonts`,
+      options: {
+        fonts: [
+          {
+            family: `Lato`,
+            variants: [`400`, `900`],
+            subsets: [`latin`]
+          },
+        ],
+      },
+    }
   ],
 };

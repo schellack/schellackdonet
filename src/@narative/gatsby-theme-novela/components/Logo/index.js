@@ -1,6 +1,7 @@
 import React from "react";
 import styled from "@emotion/styled";
-import mediaqueries from "@styles/media";
+import { keyframes, css } from "@emotion/core";
+// import mediaqueries from "@styles/media";
 
 /**
  * Paste in your SVG logo and return it from this component.
@@ -23,17 +24,39 @@ const Logo = ({ fill = "white" }) => {
               fill={fill}
             />
           </g>
+          <g>
+            <line
+              css={css`
+                animation: ${slidingLogoLine} 8s linear forwards;
+                stroke-dasharray: 1000;
+                stroke-dashoffset: 1000;
+              `}
+              strokeLinecap="undefined"
+              strokeLinejoin="undefined"
+              id="svg_5"
+              x1="28.65432"
+              y1="2.55128"
+              x2="180"
+              y2="2.55128"
+              strokeWidth="0.65"
+              stroke={fill}
+              fill="none"
+            />
+            <line stroke={fill} transform="rotate(90 28.73289680480957,8.119462966918949) " strokeLinecap="undefined" strokeLinejoin="undefined" id="svg_6"stroke-width="0.67" x1="12.36004" y1="18.93554" x2="45.10576" y2="18.93554" fill="none"/>
+            <ellipse ry="0.13652" rx="0.13652" id="svg_7" cy="2.59672" cx="28.78157" fillOpacity="null" strokeOpacity="null" strokeWidth="0.5" stroke={fill} fill="none"/>
+          </g>
           <text
             fill={fill}
-            font-family="Helvetica, Arial, sans-serif"
-            font-size="24"
-            stroke-width="0"
-            text-anchor="middle"
+            fontFamily="Lato, Helvetica, Arial, sans-serif"
+            fontWeight="900"
+            fontSize="24"
+            letterSpacing="1"
+            textAnchor="middle"
             x="102.75"
             xmlSpace="preserve"
             y="23.90625"
           >
-            Schellack.net
+            SCHELLACK.NET
           </text>
         </g>
       </svg>
@@ -58,18 +81,24 @@ const Logo = ({ fill = "white" }) => {
 
 export default Logo;
 
+const slidingLogoLine = keyframes`
+  to {
+    stroke-dashoffset: 0;
+  }
+`;
+
 const LogoContainer = styled.div`
   .Logo__Mobile {
     display: none;
   }
 
-  ${mediaqueries.tablet`
-    .Logo__Desktop {
-      display: none;
-    }
+  // ${mediaqueries.tablet`
+  //   .Logo__Desktop {
+  //     display: none;
+  //   }
     
-    .Logo__Mobile{
-      display: block;
-    }
-  `}
+  //   .Logo__Mobile{
+  //     display: block;
+  //   }
+  // `}
 `;
